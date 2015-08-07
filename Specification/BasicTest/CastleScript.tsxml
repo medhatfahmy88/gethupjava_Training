@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<TestSpecification>
+  <DocumentStatus />
+  <Database />
+  <Timer>1000</Timer>
+  <HilParserPath />
+  <Library>
+    <Text>..\..\Support\Libraries\Main_lib_Renault_X95.txt</Text>
+  </Library>
+  <TestSerie>
+    <UseCaseDescription>This test group is for testing all supported diagnostic session start using physical addressing
+Test Serie ID: StartDiagnosticSessionControl_TS_01
+Requirements covered in the following testserie are: SRS_CAM_D_0090, SRS_CAM_D_0100, SRS_CAM_D_0110, SRS_CAM_D_0120, SRS_CAM_D_0920, SRS_CAM_D_0940, SRS_CAM_D_0860, SRS_CAM_D_0870, SRS_CAM_D_0880, SRS_CAM_D_0890    
+Here the following use cases are validated:
+	&#x2022;	Open all possible diagnostic session:
+		- Default session mode 		0x81
+		- Programming session mode	0x85
+		- Valeo session mode	0x86
+		- Extended session mode		0xC0
+	&#x2022;	Receive a Subfunction not supported negative response when an invaled session ID is sent.
+	&#x2022;	Receive a condition not correct negative response when CarSpeed &gt; 3Km/h.</UseCaseDescription>
+    <TestSerieDescription />
+    <TestSerieBoundary />
+    <testSerieNumber>1</testSerieNumber>
+    <Priority>1</Priority>
+    <Status>NOT TESTED</Status>
+    <RequirementKey>S1. 0:/DOORS_Project_Name/Path/SWReqSpec_Document_Name;SwReq_1140,S1. 0:/DOORS_Project_Name/Path/SWReqSpec_Document_Name;SwReq_1711,S1. 0:/DOORS_Project_Name/Path/SWReqSpec_Document_Name;SwReq_1547,</RequirementKey>
+    <TestSerieInfo>Checking the positive and negative response while transition between all supported sessions</TestSerieInfo>
+    <Tester>Mohamed El Sobky</Tester>
+    <Summary />
+    <TestSerieStatus />
+    <DeviationNumber />
+    <TestSubSerie>
+      <TestSubSerieNumber>1</TestSubSerieNumber>
+      <RequirementKey />
+      <Status>NOT TESTED</Status>
+    </TestSubSerie>
+  </TestSerie>
+</TestSpecification>
+
